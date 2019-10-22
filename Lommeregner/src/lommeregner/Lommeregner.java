@@ -5,7 +5,6 @@ package lommeregner;
 public class Lommeregner {
 
     public int plus(int a, int b) throws UgyldigtInputException {
-         int c = 0;
         //accepterer kun positive heltal 
         if(a < 1 || b < 1){
             //Fejlhåndtering
